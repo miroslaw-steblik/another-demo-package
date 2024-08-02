@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "another_package"
+version = "2024.0.0"
+description = "A package for data processing in data engineering projects"
+readme = "README.md"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+  {name = "Miroslaw Steblik", email = "miroslawsteblik@gmail.com"},
+]
+
+#[project.urls]
+#"Homepage" = "https://github.com/yourusername/my_package"
